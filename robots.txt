@@ -1,0 +1,43 @@
+User-agent: *
+
+Disallow: /
+
+Disallow: /posts/
+
+Disallow: /posts/what-ai-would-delete-from-great-writing/
+
+Disallow: /posts/ai-slop-accusations-and-a-better-way/
+
+Disallow: /posts/new-books-i-love/
+
+Disallow: /posts/how-to-write-email-readers-want-to-open/
+
+Disallow: /posts/dont-outsource-this-part-of-writing/
+
+Disallow: /posts/is-the-age-of-reading-actually-over/
+
+Disallow: /posts/bait-the-sales-pitch-behind-every-choice-you-make/
+
+Disallow: /posts/blogging-research-data/
+
+Disallow: /posts/why-care-about-the-em-dash/
+
+Disallow: /posts/long-live-email/
+
+Disallow: /posts/how-to-secure-more-speaking-gigs/
+
+Disallow: /posts/where-ive-been-new-book/
+
+Disallow: /about/
+
+Disallow: /categories/
+
+Disallow: /contact/
+
+Disallow: /categories/css/
+
+Disallow: /categories/javascript/
+
+Disallow: /tags/
+
+Disallow: /categories/uncategories/
