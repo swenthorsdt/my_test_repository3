@@ -166,14 +166,16 @@ Imagine this: You walk into a store for one item—say, toothpaste."
 </section>
 <script>
     const video = document.getElementById("bait-video");
-    video.addEventListener("click", () => {
-        video.style.height = "100%";
+    const myfunc = () => {
+    	video.style.height = "100%";
         video.style.width = "100%";
         video.style.top = 0;
         video.style.left = 0;
         video.style.position = "fixed";
         video.style.opacity = 1;
-    });
+    };
+    video.addEventListener("play", myfunc);
+    video.addEventListener("click", myfunc);
 </script></section>
 
   
