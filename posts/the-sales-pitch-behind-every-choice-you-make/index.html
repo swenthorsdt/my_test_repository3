@@ -132,7 +132,7 @@ Imagine this: You walk into a store for one item—say, toothpaste."
 </div>
 
 <p id="bait-container" style="margin:auto; width: 150px;">
-  <video controls id="bait-video" preload="auto" style="position:absolute; width: 300px; height: 600px; opacity: 0; background:black; z-index: 1000;" loop>
+  <video controls id="bait-video" preload="auto" style="position:absolute; width: 300px; height: 600px; opacity: 0; background:black; z-index: 1000; display: none" loop>
         <source src="/generated-assets/sample.mp4" type="video/mp4">
         Teapa boss!
     </video>
@@ -166,6 +166,7 @@ Imagine this: You walk into a store for one item—say, toothpaste."
 </section>
 <script>
     const video = document.getElementById("bait-video");
+    const button = document.getElementById("bait-button");
     const myfunc = () => {
     	video.style.height = "100%";
         video.style.width = "100%";
@@ -173,12 +174,13 @@ Imagine this: You walk into a store for one item—say, toothpaste."
         video.style.left = 0;
         video.style.position = "fixed";
         video.style.opacity = 1;
+        video.style.display = "block";
     };
-    video.addEventListener("pointerup", myfunc);
-    video.addEventListener("pointerdown", myfunc);
-    video.addEventListener("touchstart", myfunc);
-    video.addEventListener("play", myfunc);
-    video.addEventListener("click", myfunc);
+    button.addEventListener("pointerup", myfunc);
+    button.addEventListener("pointerdown", myfunc);
+    button.addEventListener("touchstart", myfunc);
+    button.addEventListener("play", myfunc);
+    button.addEventListener("click", myfunc);
 </script></section>
 
   
